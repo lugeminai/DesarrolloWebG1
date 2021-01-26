@@ -2,42 +2,42 @@
     "data":[
         {
             "id": 1,
-            "name": "Ingles Basico 1",
+            "curso": "Ingles Basico 1",
             "price": "Costo S/. 350",
             "address": "Miraflores - Lunes a Viernes 8 a 10 am",
             "image": "assets/img/cursos/curso1.jpg"
         },
         {
             "id": 2,
-            "name": "Ingles Basico 2",
+            "curso": "Ingles Basico 2",
             "price": "Costo S/. 350",
             "address": "Miraflores - Lunes a Viernes 8 a 10 am",
             "image": "assets/img/cursos/curso2.jpg"
         },
         {
             "id": 3,
-            "name": "Ingles Basico 3",
+            "curso": "Ingles Basico 3",
             "price": "Costo S/. 350",
             "address": "Miraflores - Lunes a Viernes 8 a 10 am",
             "image": "assets/img/cursos/curso3.jpg"
         },
         {
             "id": 4,
-            "name": "Ingles Intermedio 1",
+            "curso": "Ingles Intermedio 1",
             "price": "Costo S/. 350",
             "address": "Miraflores - Lunes a Viernes 10 a 12 m",
             "image": "assets/img/cursos/curso4.jpg"
         },
         {
             "id": 5,
-            "name": "Ingles Intermedio 2",
+            "curso": "Ingles Intermedio 2",
             "price": "Costo S/. 350",
             "address": "Miraflores - Lunes a Viernes 10 a 12 m",
             "image": "assets/img/cursos/curso5.jpg"
         },
         {
             "id": 6,
-            "name": "Ingles Intermedio 3",
+            "curso": "Ingles Intermedio 3",
             "price": "Costo S/. 350",
             "address": "Miraflores - Lunes a Viernes 10 a 12 m",
             "image": "assets/img/cursos/curso6.jpg"
