@@ -3,10 +3,10 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 
 @Component({
   selector: 'app-contactus',
-  templateUrl: './contactus.component.html',
-  styleUrls: ['./contactus.component.css']
+  templateUrl: './contactenos.component.html',
+  styleUrls: ['./contactenos.component.css']
 })
-export class ContactusComponent implements OnInit {
+export class ContactenosComponent implements OnInit {
 
   // contactusForm = new FormGroup({
   //   person: new FormGroup({
