@@ -9,7 +9,7 @@ import { MatriculaComponent } from './pages/matricula/matricula.component';
 import { HomeComponent } from './pages/home/home.component';
 
 import { AppRoutingModule } from './app-routing.module';
-import { ProjectComponent } from './pages/project/project.component';
+import { CursoComponent } from './pages/curso/curso.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
@@ -19,7 +19,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     NosotrosComponent,
     MatriculaComponent,
     HomeComponent,
-    ProjectComponent,
+    CursoComponent,
     ],
   imports: [
     BrowserModule,

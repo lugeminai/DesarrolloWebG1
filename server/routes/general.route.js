@@ -1,6 +1,6 @@
 module.exports = app => {
-    app.get('/api/project/GetProjects', (req, res) => {
-        var data = require('../json/project.json');
+    app.get('/api/curso/GetCursos', (req, res) => {
+        var data = require('../json/curso.json');
         res.json(data);
     })
 
