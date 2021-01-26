@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectService } from 'src/app/services/project.service';
-import { ApartmentService } from 'src/app/services/apartment.service';
+
 import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
@@ -11,11 +11,11 @@ import { ActivatedRoute, Params } from '@angular/router';
 export class ProjectComponent implements OnInit {
 
   projects = [];
-  apartments = [];
+
   showProject = "true";
 
   constructor(private readonly projectService: ProjectService, 
-              private readonly apartmentService: ApartmentService, 
+               
               private activateRoute: ActivatedRoute) { }
 
   getProjects(){
@@ -32,18 +32,13 @@ export class ProjectComponent implements OnInit {
     })
   }
 
-  getApartmentsByProject(id: number){
-    this.apartmentService.getApartments().subscribe((rest: any) => {
-      this.apartments = rest.data.filter((item: { projectId: number; }) => item.projectId == id);
-      console.log(this.apartments);
-    })
-  }
+  
 
   ngOnInit(): void {
     this.activateRoute.params.subscribe((params: Params) => {
       if (params.id){
         this.getProjectById(params.id);
-        this.getApartmentsByProject(params.id);
+        
         this.showProject = "false";
       }
       else {

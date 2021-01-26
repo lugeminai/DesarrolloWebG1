@@ -10,7 +10,6 @@ import { HomeComponent } from './pages/home/home.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { ProjectComponent } from './pages/project/project.component';
-import { ApartmentComponent } from './pages/apartment/apartment.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
@@ -21,8 +20,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatriculaComponent,
     HomeComponent,
     ProjectComponent,
-    ApartmentComponent
-  ],
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,

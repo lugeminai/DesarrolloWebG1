@@ -33,19 +33,6 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div *ngFor="let d of apartments" class="col-sm-6 col-md-4 portfolio-item">
-                <a routerLink="/apartment/{{ d.id }}" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="{{ d.image[0].path }}"><a class="btn btn-primary border-dark text-uppercase" role="button" href="#" style="background-color: rgb(255,165,85);border: none;position: absolute;right: 5px;bottom: 5px;font-size: 12px;font-weight: bold;color: rgba(255,255,255,0.75);">Cotizar</a></a>
-                <div
-                    class="portfolio-caption">
-                    <h4>{{ d.name }}</h4>
-                    <p class="text-muted"><strong><em>{{ d.size }} - {{ d.floor }}</em><br></strong></p>
-                    <p class="text-muted">{{ d.type }}</p>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </section>

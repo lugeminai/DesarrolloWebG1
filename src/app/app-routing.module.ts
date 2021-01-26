@@ -5,11 +5,10 @@ import { ContactenosComponent } from './pages/contactenos/contactenos.component'
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { MatriculaComponent } from './pages/matricula/matricula.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ProjectComponent } from './pages/project/project.component';
-import { ApartmentComponent } from './pages/apartment/apartment.component';
+import { ProjectComponent } from './pages/project/project.component'
 
 const routes: Routes = [
-    { path: 'apartment/:id', component: ApartmentComponent },
+    
     { path: 'project/:id', component: ProjectComponent },
     { path: 'project', component: ProjectComponent },
     { path: 'contactenos', component: ContactenosComponent },
