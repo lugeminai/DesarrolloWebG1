@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CursoComponent } from './pages/curso/curso.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { GestcursosComponent } from './pages/admin/gestcursos/gestcursos.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatriculaComponent,
     HomeComponent,
     CursoComponent,
+    GestcursosComponent,
     ],
   imports: [
     BrowserModule,
