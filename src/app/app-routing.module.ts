@@ -5,8 +5,7 @@ import { ContactenosComponent } from './pages/contactenos/contactenos.component'
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { MatriculaComponent } from './pages/matricula/matricula.component';
 import { HomeComponent } from './pages/home/home.component';
-import { CursoComponent } from './pages/curso/curso.component';
-import { GestcursosComponent } from './pages/admin/gestcursos/gestcursos.component'
+import { CursoComponent } from './pages/curso/curso.component'
 
 const routes: Routes = [
     
@@ -16,8 +15,7 @@ const routes: Routes = [
     { path: 'nosotros', component: NosotrosComponent },
     { path: 'matricula', component: MatriculaComponent },
     { path: 'home', component: HomeComponent },
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'admin/gestcursos',component: GestcursosComponent}
+    { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
