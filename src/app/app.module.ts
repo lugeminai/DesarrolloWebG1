@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CursoComponent } from './pages/curso/curso.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { GestcursosComponent } from './pages/admin/gestcursos/gestcursos.component';
+import { IngcursoComponent } from './pages/admin/ingcurso/ingcurso.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { GestcursosComponent } from './pages/admin/gestcursos/gestcursos.compone
     HomeComponent,
     CursoComponent,
     GestcursosComponent,
+    IngcursoComponent,
     ],
   imports: [
     BrowserModule,
